@@ -974,7 +974,7 @@ From this way we can make main server for which handle clients.
 
 ## Visit [Pythonaibrain](https://pythonaibrain-doc-1_1_9.app/streamlit) for Documentation.
 
-## Visit [Pythonaibrain Issues](https://github.com/World-Of-Programming-And-Technology/PythonAI/issues) for any issues.
+## Visit [Pythonaibrain Issues](https://github.com/DivyanshuSinha136/TIGER-All-Photos/issues) for any issues.
 
 ---
 
