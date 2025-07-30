@@ -1,2 +1,3 @@
 pythonaibrain
 pythonaibrain-client
+sphinx_autodoc_typehints
