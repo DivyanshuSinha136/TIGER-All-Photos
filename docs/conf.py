@@ -1,35 +1,32 @@
-# -- Path setup --------------------------------------------------------------
-
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))  # Adjust if needed
 
-# -- Project information -----------------------------------------------------
+# Add project root to Python path
+sys.path.insert(0, os.path.abspath('..'))
 
-project = 'Pythonaibrain'
-author = 'Divyanshu Sinha'
+# Project information
+project = "Pythonaibrain"
+author = "Divyanshu Sinha"
+release = "1.1.9"
 
-# -- General configuration ---------------------------------------------------
-
+# Extensions
 extensions = [
-    "myst_parser",  # Markdown support
-    "sphinx.ext.autodoc",  # if you use autodoc for docstrings
-    "sphinx.ext.napoleon", # for Google/NumPy style docstrings (optional)
+    "myst_parser",          # Enable Markdown support
 ]
 
-# Support both reStructuredText and Markdown files
+# Source file formats
 source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
+    ".md": "markdown",
+    ".rst": "restructuredtext",
 }
 
-master_doc = 'index'  # Your main file can be index.md or index.rst
+# Root document (index.md)
+master_doc = "index"
 
-# -- Options for HTML output -------------------------------------------------
+# Theme
+html_theme = "sphinx_rtd_theme"
 
-html_theme = 'sphinx_rtd_theme'  # ReadTheDocs theme
-
-# Optional: Enable MyST extensions (like definition lists, admonitions)
+# MyST settings (optional but useful)
 myst_enable_extensions = [
     "deflist",
     "html_admonition",
