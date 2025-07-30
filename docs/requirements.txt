@@ -1,3 +1,4 @@
-pythonaibrain
-pythonaibrain-client
-sphinx_autodoc_typehints
+sphinx
+myst-parser
+sphinx-autodoc-typehints
+sphinx-rtd-theme
