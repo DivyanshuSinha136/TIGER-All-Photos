@@ -23,7 +23,7 @@ source_suffix = {
     '.md': 'markdown',
 }
 
-master_doc = 'pdoc'  # Your main file can be index.md or index.rst
+master_doc = 'index'  # Your main file can be index.md or index.rst
 
 # -- Options for HTML output -------------------------------------------------
 
