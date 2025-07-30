@@ -873,7 +873,7 @@ if message_type in ['Question', 'Answer']:
 
 ## Advance Brain Module
 
-An advanced version of the Brain module with smarter classification and better entity recognition.
+An advanced version of the Brain module with smarter classification and better entity recognition. It also suport LLMs for better responce.
 
 ### Usage
 
@@ -898,7 +898,7 @@ if message_type in ['Question', 'Answer']:
 | Module Name  | Description                                 |
 | ------------ | ------------------------------------------- |
 | Brain        | Basic Smart AI brain using `.json` knowledge base |
-| AdvanceBrain | Advanced AI brain with better understanding |
+| AdvanceBrain | Advanced AI brain with better understanding and LLM supports |
 | TTS          | Text to speech                              |
 | MathAI       | Use to solve complex and symbolic math problems|
 | PTT          | It extract text from pdf                    |
@@ -968,11 +968,19 @@ From this way we can make main server for which handle clients.
 
 ---
 
+### Console Scripts
+
+```bash
+download-nlu       # Downloads NLTK Data
+tiger-server       # Starts AI Agent Chat Server
+tiger-web-server   # Starts Web-based AI Server
+```
+
+---
+
 ## Visit [PyPI](https://pypi.org/project/pythonaibrain) for installation and more details.
 
-## Visit [GitHub](https://github.com/World-Of-Programming-And-Technology/Pythonaibrain-doc-1.1.9) for more detail about package.
-
-## Visit [Pythonaibrain](https://pythonaibrain-doc-1_1_9.app/streamlit) for Documentation.
+## Visit [GitHub](https://github.com/DivyanshuSinha136/TIGER-All-Photos/) for more detail about package.
 
 ## Visit [Pythonaibrain Issues](https://github.com/DivyanshuSinha136/TIGER-All-Photos/issues) for any issues.
 
