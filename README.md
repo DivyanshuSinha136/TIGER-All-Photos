@@ -206,6 +206,8 @@ print(text)
 
 We use it to convert speech to text.
 
+> Note: It works with Internet.
+
 ---
 
 ## MathAI Function
