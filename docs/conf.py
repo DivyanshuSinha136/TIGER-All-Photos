@@ -1,23 +1,37 @@
-# docs/conf.py
+# -- Path setup --------------------------------------------------------------
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))  # So autodoc finds your modules
+sys.path.insert(0, os.path.abspath('..'))  # Adjust if needed
+
+# -- Project information -----------------------------------------------------
 
 project = 'Pythonaibrain'
 author = 'Divyanshu Sinha'
-release = '1.1.9'  # your package version
+
+# -- General configuration ---------------------------------------------------
 
 extensions = [
-    'sphinx.ext.autodoc',            # for docstring extraction
-    'sphinx.ext.napoleon',           # Google style docstrings support
-    'sphinx.ext.viewcode',           # add links to source code
-    'sphinx_autodoc_typehints',      # type hints support
-    'myst_parser',                   # markdown support
+    "myst_parser",  # Markdown support
+    "sphinx.ext.autodoc",  # if you use autodoc for docstrings
+    "sphinx.ext.napoleon", # for Google/NumPy style docstrings (optional)
 ]
 
-templates_path = ['_templates']
-exclude_patterns = []
+# Support both reStructuredText and Markdown files
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
-html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+master_doc = 'pdoc'  # Your main file can be index.md or index.rst
+
+# -- Options for HTML output -------------------------------------------------
+
+html_theme = 'sphinx_rtd_theme'  # ReadTheDocs theme
+
+# Optional: Enable MyST extensions (like definition lists, admonitions)
+myst_enable_extensions = [
+    "deflist",
+    "html_admonition",
+    "html_image",
+]
