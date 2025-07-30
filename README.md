@@ -985,6 +985,13 @@ cServer.serve()
 
 This will create client side in cli (`Command Line Interface`).
 
+Also,
+
+```bash
+client-server
+```
+
+
 ### Socket Server
 
 ```python
