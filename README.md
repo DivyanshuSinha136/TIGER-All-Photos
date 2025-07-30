@@ -2,7 +2,7 @@
 
 # Pythonaibrain
 
-Pythonaibrain is a versatile, plug-and-play Python package designed to help you build offline intelligent AI assistants and applications effortlessly. With modules covering speech recognition, text-to-speech, natural language understanding, LLM support, and more, Pythonaibrain lets you create powerful AI solutions without deep expertise or complex setup. Whether you’re a beginner or an experienced developer, get ready to bring your AI ideas to life quickly and efficiently.
+Pythonaibrain is a versatile, plug-and-play Python package designed to help you build offline intelligent AI assistants and applications effortlessly. With modules covering speech recognition, text-to-speech, natural language understanding, `LLM support`, and more, Pythonaibrain lets you create powerful AI solutions without deep expertise or complex setup. Whether you’re a beginner or an experienced developer, get ready to bring your AI ideas to life quickly and efficiently.
 
 ---
 
@@ -52,6 +52,7 @@ Built-in methods, modules and function in pyaitk :
 * TTS (Text To Speech)
 * PTT (PDF To Text)
 * ITT (Image To Text)
+* STT (Speech To Text)
 * MathAI
 * Search
 * Memory
@@ -178,6 +179,32 @@ print(ptt)                     # Extracted text output
 #### What PPT function returns?
 
 The PPT function return the extracted text in the string formate.
+
+---
+
+## STT (Speech To Text) Method.
+
+STT (`Speech To Text`) method is use to convert speech to text.
+
+### Example
+
+```python
+from pyaitk import STT # Import the method form pyaitk module
+
+stt = STT()
+
+text = stt.listen() # Listen the voice and convert into text and return
+print(text)
+
+```
+
+### What STT().listen() return?
+
+`STT().listen()` retuens `string.`
+
+### Why do we use it?
+
+We use it to convert speech to text.
 
 ---
 
